@@ -9,7 +9,9 @@ from setuptools import setup
 
 APP = ['app.py']
 DATA_FILES = []
-OPTIONS = {}
+OPTIONS = {
+    'iconfile': 'icon.icns',
+}
 
 setup(
     app=APP,
