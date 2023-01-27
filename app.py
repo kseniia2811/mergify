@@ -61,11 +61,11 @@ mergify_button = tk.Button(
     root,
     text="Mergify!",
     #  TODO
-    bg='#40E43D',
+    bg='green',
     font=headerfont,
     command=test_function
 )
-mergify_button.pack(pady=20, fill='x')
+mergify_button.pack(padx=100,pady=30)
 
 # textbox = tk.Text(root, height=3, font=font)
 # textbox.pack(padx=20, pady=10)
